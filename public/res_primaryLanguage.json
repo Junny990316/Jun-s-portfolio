@@ -1,0 +1,130 @@
+{
+    "basic_info": {
+      "description_header": "안녕하세요",
+      "description": "👋 사람들과의 소통을 즐기고 끊임 없이 성장하는 개발자가 되고싶은 허주은 입니다.🤩 \n\n [ FrontEnd Skills ] \n - HTML과 CSS로 웹 페이지의 구조와 디자인을 만들고, React로 프레임워크 기반의 개발을 수행할 수 있습니다. JavaScript를 더해서 사용자의 입력을 처리하고 실시간으로 페이지를 업데이트할 수 있습니다. RESTful API를 통해 백엔드 서버와 통신하고 데이터를 동적으로 로드하여 보여줄 수도 있습니다. \n\n [ BackEnd Skills ] \n - JAVA를 사용하여 데이터베이스와의 상호작용을 처리할 수 있습니다. SpringBoot를 통해 객체 지향 프로그래밍과 관계형 데이터베이스 간의 매핑을 쉽게 처리할 수 있도록 도와주는 JPA와, 데이터베이스와 직접적으로 상호작용하여 SQL 쿼리를 실행하고 결과를 처리할 수 있는 기능을 제공하는 JDBC를 사용할 수 있습니다.",
+      "section_name": {
+        "about": "정보",
+        "projects": "프로젝트",
+        "skills": "기술",
+        "experience": "경험"
+      }
+    },
+    "projects": [
+      {
+        "title": "음악 사이트",
+        "startDate": "2023",
+        "description": "AddEventListener는 사용자의 취향에 맞는 음악을 청취할 수 있는 음악 사이트 입니다. 음악뿐만 아니라 좋아하는 가수의 인터뷰나 신곡등을 바로바로 찾아볼 수 있는 사이트 입니다. 한달이라는 기간 내에 JDBC로 쿼리문을 직접 작성해 회원가입 페이지와 아이디 비밀번호 찾기 페이지를 구현했습니다. 회원가입 페이지에서는 이메일 인증과 주소찾기 api를 사용하여 사용자의 편리함을 높이기 위해 노력했습니다.",
+        "images": [
+          "images/portfolio/adventure/p1.jpg",
+          "images/portfolio/adventure/p2.jpg",
+          "images/portfolio/adventure/p3.jpg",
+          "images/portfolio/adventure/p4.jpg",
+          "images/portfolio/adventure/p5.jpg"
+        ],
+        "url": "https://www.notion.so/AddEventListener-8e8d40729914401b8bf9c6ac21bf2cbd?pvs=4",
+        "technologies": [
+          {
+            "class": "devicon-java-plain",
+            "name": "Java"
+          },
+          {
+            "class": "devicon-react-plain",
+            "name": "React"
+          },
+          {
+            "class": "devicon-oracle-plain",
+            "name": "oracle"
+          }
+        ]
+      },
+      {
+        "title": "의류 쇼핑몰",
+        "startDate": "2023",
+        "description": "iMMUTABLE은 의류 쇼핑몰 사이트입니다. 고객이 원하는 상품을 장바구니에 담을 수 있으며, 장바구니에 담긴 의류를 선택하여 구매할 수 있습니다. 정해진 시간 안에 이메일 인증을 통한 비밀번호 재설정, 회원가입, 카카오페이 api, FAQ 입력, 수정, 삭제를 회원과 관리자를 구분하여 회원은 FAQ 항목을 읽을 수만 있도록 하였습니다. AWS 서버 기동을 위해 가비아에서 도메인을 구매 후 등록하였습니다.",
+        "images": [
+          "images/portfolio/animal-shelter/p1.jpg",
+          "images/portfolio/animal-shelter/p2.jpg",
+          "images/portfolio/animal-shelter/p3.jpg",
+          "images/portfolio/animal-shelter/p4.jpg",
+          "images/portfolio/animal-shelter/p5.jpg"
+        ],
+        "url": "https://www.notion.so/iMMUTABLE-513832f8f34c44519842ffea353f3c6d?pvs=4",
+        "technologies": [
+          {
+            "class": "devicon-java-plain",
+            "name": "Java"
+          },
+          {
+            "class": "devicon-react-original",
+            "name": "React"
+          },
+          {
+            "class": "devicon-mysql-plain",
+            "name": "MySql"
+          }
+        ]
+      },
+      {
+        "title": "강아지 용품 쇼핑몰",
+        "startDate": "2023",
+        "description": "FIND BY DOG 는 강아지 의류를 구매할 수 있는 쇼핑물 사이트로 구매자가 원하는 상품을 장바구니 등록 후 구매할 수 있습니다. 2주간의 시간동안 회원가입 페이지, 비밀번호 재설정은 Thymleaf로 구현했으며 관리자 페이지는 react와 JPA로 구현했습니다. 모든 페이지는 페이지네이션을 사용하여 관리자가 목록을 편리하게 볼 수 있도록 했습니다.",
+        "images": [
+          "images/portfolio/photography/p1.jpg",
+          "images/portfolio/photography/p2.jpg",
+          "images/portfolio/photography/p3.jpg",
+          "images/portfolio/photography/p4.jpg"
+        ],
+        "url": "https://www.notion.so/FIND-BY-DOG-U-CAMP38-08b75b5789ae4765af51a7bf48545610?pvs=4",
+        "technologies": [
+          {
+            "class": "devicon-java-plain",
+            "name": "Java"
+          },
+          {
+            "class": "devicon-react-plain",
+            "name": "React"
+          },
+          {
+            "class": "devicon-dbeaver-plain",
+            "name": "Dbeaver"
+          }
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "LG CNS U-Camp38",
+        "title": "SW개발자 과정",
+        "years": "2023.09 ~ 2023.11",
+        "mainTech": [
+          "Java", "React", "CSS", "HTML", "JavaScript", "Oracle", "MySql", "MariaDB"
+        ],
+        "technologies": [
+          "Node.js",
+          "Spring",
+          "SpringBoot", 
+          "REST API", 
+          "JPA", 
+          "JDBC",
+          "jQuery"
+        ]
+      },
+      {
+        "company": "KH 정보교육원",
+        "title": "자바(JAVA)기반 빅데이터 시각화 개발자 양성과정",
+        "years": "2022.12 ~ 2023.07",
+        "mainTech": [
+         "Java", "React", "CSS", "HTML", "JavaScript", "Oracle", "MySql"
+        ],
+        "technologies": [
+          "Node.js",
+          "SpringBoot", 
+          "REST API", 
+          "JPA", 
+          "JDBC", 
+          "AWS", 
+          "Swagger"
+        ]
+      }
+    ]
+  }

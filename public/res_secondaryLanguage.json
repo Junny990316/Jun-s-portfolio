@@ -1,0 +1,130 @@
+{
+    "basic_info": {
+      "description_header": "Hello",
+      "description": "👋 I'm Jun, and I aspire to be a developer who enjoys communicating with people and continuously growing. I take pleasure in everything with a positive energy, and I love it when my enthusiasm influences others as well. 🤩",
+      "section_name": {
+        "about": "About Me",
+        "projects": "Project",
+        "skills": "Skills",
+        "experience": "Experience"
+      }
+    },
+    "projects": [
+      {
+        "title": "Dog Stuff Shopping Mall",
+        "startDate": "2023",
+        "description": "FIND BY DOG is an online shopping mall website specializing in dog clothing. Customers can register desired items in their shopping carts and proceed with purchases. Over a period of two weeks, the registration page and password reset functionality were implemented using Thymeleaf, while the administrator page was developed using React and JPA. Pagination was applied to all pages to facilitate convenient viewing of lists for administrators.",
+        "images": [
+          "images/portfolio/photography/p1.jpg",
+          "images/portfolio/photography/p2.jpg",
+          "images/portfolio/photography/p3.jpg",
+          "images/portfolio/photography/p4.jpg"
+        ],
+        "url": "https://github.com/Junny990316/adminpage",
+        "technologies": [
+          {
+            "class": "devicon-java-plain",
+            "name": "Java"
+          },
+          {
+            "class": "devicon-react-plain",
+            "name": "React"
+          },
+          {
+            "class": "devicon-dbeaver-plain",
+            "name": "Dbeaver"
+          }
+        ]
+      },
+      {
+        "title": "Online Shopping Mall",
+        "startDate": "2023",
+        "description": "iMMUTABLE is an online clothing shopping mall website. Customers can add desired products to their shopping carts and proceed to purchase selected clothing items. Within a specified timeframe, features such as email verification for password reset, user registration, integration with KakaoPay API, and FAQ management (including input, modification, and deletion) are implemented, with a clear distinction between members and administrators. Members are allowed to read FAQ items only. Additionally, a domain was purchased from Gabia and registered for AWS server deployment. ",
+        "images": [
+          "images/portfolio/animal-shelter/p1.jpg",
+          "images/portfolio/animal-shelter/p2.jpg",
+          "images/portfolio/animal-shelter/p3.jpg",
+          "images/portfolio/animal-shelter/p4.jpg",
+          "images/portfolio/animal-shelter/p5.jpg"
+        ],
+        "url": "https://github.com/orgs/iMMUTABLE-unite/repositories",
+        "technologies": [
+          {
+            "class": "devicon-java-plain",
+            "name": "Java"
+          },
+          {
+            "class": "devicon-react-original",
+            "name": "React"
+          },
+          {
+            "class": "devicon-mysql-plain",
+            "name": "MySql"
+          }
+        ]
+      },
+      {
+        "title": "Music Site",
+        "startDate": "2023",
+        "description": "AddEventListener is a music website where users can listen to music according to their preferences. It's not only about music, users can also find interviews and new songs from their favorite artists instantly. Within a month, I implemented the sign-up page and the ID/password recovery page using JDBC to directly write SQL queries. On the sign-up page, I made efforts to enhance user convenience by incorporating email verification and address lookup APIs.",
+        "images": [
+          "images/portfolio/adventure/p1.jpg",
+          "images/portfolio/adventure/p2.jpg",
+          "images/portfolio/adventure/p3.jpg",
+          "images/portfolio/adventure/p4.jpg",
+          "images/portfolio/adventure/p5.jpg"
+        ],
+        "url": "https://github.com/orgs/aEL-PROJECT/repositories",
+        "technologies": [
+          {
+            "class": "devicon-java-plain",
+            "name": "Java"
+          },
+          {
+            "class": "devicon-react-plain",
+            "name": "React"
+          },
+          {
+            "class": "devicon-oracle-plain",
+            "name": "oracle"
+          }
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "LG CNS U-Camp38",
+        "title": "SW개발자 과정",
+        "years": "2023.09 ~ 2023.11",
+        "mainTech": [
+          "Java", "React", "CSS", "HTML", "JavaScript", "Oracle", "MySql", "MariaDB"
+        ],
+        "technologies": [
+          "Node.js",
+          "Spring",
+          "SpringBoot", 
+          "REST API", 
+          "JPA", 
+          "JDBC",
+          "jQuery"
+        ]
+      },
+      {
+        "company": "KH 정보교육원",
+        "title": "자바(JAVA)기반 빅데이터 시각화 개발자 양성과정",
+        "years": "2022.12 ~ 2023.07",
+        "mainTech": [
+         "Java", "React", "CSS", "HTML", "JavaScript", "Oracle", "MySql"
+        ],
+        "technologies": [
+          "Node.js",
+          "SpringBoot", 
+          "REST API", 
+          "JPA", 
+          "JDBC", 
+          "AWS", 
+          "Swagger"
+        ]
+      }
+    ]
+  }
