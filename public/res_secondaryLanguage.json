@@ -1,7 +1,7 @@
 {
     "basic_info": {
       "description_header": "Hello",
-      "description": "👋 I'm Jun, and I aspire to be a developer who enjoys communicating with people and continuously growing. I take pleasure in everything with a positive energy, and I love it when my enthusiasm influences others as well. 🤩",
+      "description": "👋 My name is Ju Eun Heo, and I'm a developer who enjoys communicating with people and constantly striving for growth. 🤩 \n\n [ FrontEnd Skills ] \n - I can create the structure and design of web pages using HTML and CSS, and perform framework-based development with React. I can also handle user input and update pages in real-time using JavaScript. Additionally, I can communicate with backend servers via RESTful APIs and dynamically load and display data.  \n\n [ BackEnd Skills ] \n - I can handle interactions with databases using JAVA. With SpringBoot, I can easily handle object-oriented programming and mapping between relational databases using JPA, as well as directly interact with databases to execute SQL queries and process results using JDBC.",
       "section_name": {
         "about": "About Me",
         "projects": "Project",
