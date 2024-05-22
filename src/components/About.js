@@ -74,6 +74,7 @@ class About extends Component {
                       height: "auto",
                       fontSize: "132%",
                       lineHeight: "200%",
+                      whiteSpace: 'pre-wrap'
                     }}
                   >
                     <br />
